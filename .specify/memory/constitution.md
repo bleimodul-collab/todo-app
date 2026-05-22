@@ -1,37 +1,31 @@
 <!--
 SYNC IMPACT REPORT
 ==================
-Version change: (template) → 1.0.0
-Bump rationale: Initial ratification — first concrete constitution replacing the
-  unfilled template. MAJOR baseline.
+Version change: 1.0.0 → 1.0.1
+Bump rationale: PATCH — corrected subtitle formatting (stray `/` character on
+  tagline line); updated Last Amended date after implementation-completion review
+  on 2026-05-22.
 
-Modified principles:
-  [PRINCIPLE_1_NAME] → I. Test-First (NON-NEGOTIABLE)
-  [PRINCIPLE_2_NAME] → II. Design Fidelity
-  [PRINCIPLE_3_NAME] → III. Simplicity & YAGNI
-  [PRINCIPLE_4_NAME] → IV. Component Modularity
-  [PRINCIPLE_5_NAME] → V. Accessibility
-
-Added sections:
-  - Technology Constraints (was [SECTION_2_NAME])
-  - Development Workflow (was [SECTION_3_NAME])
-
+Modified principles: none
+Added sections: none
 Removed sections: none
 
 Templates requiring updates:
-  ✅ .specify/templates/plan-template.md — generic "Constitution Check" gate, no
-     edit needed; /speckit-plan fills it against these principles.
-  ✅ .specify/templates/spec-template.md — generic; tests are requested explicitly
-     in the spec to satisfy Principle I.
-  ✅ .specify/templates/tasks-template.md — generic; tests are non-optional for
-     this project per Principle I and will be requested in the spec.
+  ✅ .specify/templates/plan-template.md — no changes required; generic "Constitution
+     Check" gate remains valid.
+  ✅ .specify/templates/spec-template.md — no changes required; user story and
+     testing sections already align with Principle I.
+  ✅ .specify/templates/tasks-template.md — "tests optional" wording is the generic
+     default for new projects. This project's override is recorded in
+     specs/001-todo-app/tasks.md header and in this constitution; no template edit
+     needed.
 
 Follow-up TODOs: none
 -->
 
 # demodev Tasks Constitution
 
-/ 한국어 Todo 웹앱 — Claude Design 핸드오프 번들의 프로덕션 구현
+> 한국어 Todo 웹앱 — Claude Design 핸드오프 번들의 프로덕션 구현
 
 ## Core Principles
 
@@ -156,4 +150,4 @@ Rationale: the prototype already encodes these affordances; regressing them in t
   principles; any complexity that violates a principle MUST be justified in the
   plan's Complexity Tracking table or removed.
 
-**Version**: 1.0.0 | **Ratified**: 2026-05-15 | **Last Amended**: 2026-05-15
+**Version**: 1.0.1 | **Ratified**: 2026-05-15 | **Last Amended**: 2026-05-22
